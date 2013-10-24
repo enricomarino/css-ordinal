@@ -18,5 +18,5 @@
 
 .ordinal[value="11"]:after,
 .ordinal[value="12"]:after {
- content: "th";
+  content: "th";
 }
