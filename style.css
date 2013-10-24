@@ -1,0 +1,22 @@
+.ordinal {}
+
+.ordinal[value]:after {
+  content: "th";
+}
+
+.ordinal[value$="1"]:after {
+  content: "st";
+}
+
+.ordinal[value$="2"]:after {
+  content: "nd";
+}
+
+.ordinal[value$="3"]:after {
+  content: "rd";
+}
+
+.ordinal[value="11"]:after,
+.ordinal[value="12"]:after {
+ content: "th";
+}
